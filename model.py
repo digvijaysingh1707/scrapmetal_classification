@@ -146,8 +146,6 @@ def train(
 
 
 if __name__ == "__main__":
-    # Transformer for image
-
     data_transform = transforms.Compose(
         [
             transforms.Resize(size=(640, 640)),
